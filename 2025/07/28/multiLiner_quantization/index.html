@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>算子融合的模型推导 | Hexo</title>
+  <title>MLP模型量化 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="一、模型量化概述1.1 模型量化的背景在深度学习模型的部署过程中，尤其是嵌入式设备等资源受限的环境中，如何有效地减少模型的计算和存储开销是一个关键问题。模型量化作为压缩模型和提升推理效率的核心技术，已被广泛应用于深度学习推理加速中。量化技术将浮点数模型转换为低位宽整数模型，从而显著降低内存占用并提高计算速度。典型的量化方法包括静态量化（PTQ）和动态量化（QAT）。 本文章以多层感知机（MLP）为">
 <meta property="og:type" content="article">
-<meta property="og:title" content="算子融合的模型推导">
+<meta property="og:title" content="MLP模型量化">
 <meta property="og:url" content="http://example.com/2025/07/28/multiLiner_quantization/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="一、模型量化概述1.1 模型量化的背景在深度学习模型的部署过程中，尤其是嵌入式设备等资源受限的环境中，如何有效地减少模型的计算和存储开销是一个关键问题。模型量化作为压缩模型和提升推理效率的核心技术，已被广泛应用于深度学习推理加速中。量化技术将浮点数模型转换为低位宽整数模型，从而显著降低内存占用并提高计算速度。典型的量化方法包括静态量化（PTQ）和动态量化（QAT）。 本文章以多层感知机（MLP）为">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-07-27T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-08-08T09:00:41.231Z">
+<meta property="article:modified_time" content="2025-08-08T15:09:39.257Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -87,7 +87,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      算子融合的模型推导
+      MLP模型量化
     </h1>
   
 
@@ -193,7 +193,7 @@ x_{(k+1)i} =s_{x^q_{(k+1)i}}(x^q_{(k+1)i} - z_{x^q_{(k+1)i}}))
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/07/28/multiLiner_quantization/" data-id="cme2yl29e0001pcfm8vll7gy6" data-title="算子融合的模型推导" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/07/28/multiLiner_quantization/" data-id="cme2ypnds0001s4fm6ah48wgg" data-title="MLP模型量化" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -207,7 +207,7 @@ x_{(k+1)i} =s_{x^q_{(k+1)i}}(x^q_{(k+1)i} - z_{x^q_{(k+1)i}}))
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          算子融合的模型推导
+          DsConv模型量化
         
       </div>
     </a>
@@ -248,11 +248,11 @@ x_{(k+1)i} =s_{x^q_{(k+1)i}}(x^q_{(k+1)i} - z_{x^q_{(k+1)i}}))
       <ul>
         
           <li>
-            <a href="/2025/07/28/dsconv_quantization/">算子融合的模型推导</a>
+            <a href="/2025/07/28/dsconv_quantization/">DsConv模型量化</a>
           </li>
         
           <li>
-            <a href="/2025/07/28/multiLiner_quantization/">算子融合的模型推导</a>
+            <a href="/2025/07/28/multiLiner_quantization/">MLP模型量化</a>
           </li>
         
       </ul>
